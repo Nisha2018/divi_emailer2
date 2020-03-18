@@ -1,17 +1,4 @@
-*{
-	/*box-sizing: border-box;*/
-}
 
-/*.content{
-	background: #9f2125;
-	color: #fff;
-}
-
-.content .info{
-	padding: 40px;
-    color: #fff;
-}
-*/
  .info  p{
 	color: #fff;
 }
@@ -40,8 +27,12 @@
     font-size: 14px;
     line-height: 20px;
     letter-spacing: 4px;
-    padding: 40px 0px 30px;
+    padding: 40px 0px 10px;
     text-transform: uppercase;
+}
+
+.sub-heading{
+    color: #2b434f;
 }
 
 .title{
@@ -81,7 +72,7 @@ table.button table td.btn2{
     /*background: transparent;
     border: 1px solid #000000;*/
     border: 1px solid transparent;
-    background: #9f2125;
+    background: #cd8227;
 }
 
 table.button table td.btn2 a{
@@ -93,7 +84,7 @@ table.button table td.btn2 a{
 }
 
 .heading{
-    color: #9f2125;
+    color: #cd8227;
     font-size: 24px;
     font-weight: bold;
 }
@@ -113,7 +104,7 @@ table.button table td.btn2 a{
 }
 
 .footer{
-	background: #da7532;
+	background: #cd8227;
 }
 
 .footer p{
