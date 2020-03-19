@@ -35,9 +35,12 @@
     color: #2b434f;
 }
 
+a.title{
+    color: #000000;
+}
+
 .title{
-	color: #000000;
-    font-size: 15px;
+    font-size: 13px;
     line-height: 24px;
     text-align: left;
     padding: 18px 0 10px;
@@ -80,7 +83,7 @@ table.button table td.btn2 a{
     line-height: 18px;
     text-align: center;
     text-transform: uppercase;
-    color: #000000;
+    color: #fff;
 }
 
 .heading{
@@ -91,6 +94,21 @@ table.button table td.btn2 a{
 
 .content2{
 	background: #0a3783;
+}
+
+.contact-info{
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: center;
+    grid-column-gap: 15px;
+}
+
+.footer a{
+    color: #e1dbdb;
+}
+
+.contact-info i{
+    padding-right: 5px;
 }
 
 .footer p.follow{
@@ -117,16 +135,18 @@ table.button table td.btn2 a{
 	padding-bottom: 20px;
 }
 
+.social-icons a{
+    border: 1px solid #fff;
+    padding: 10px 12px;
+    border-radius: 50%;
+}
+
+.social-icons i{
+    color: #fff;
+}
+
 .note p{
 	font-size: 12px;
-}
-
-a,a:visited{
-    color: #da7532;
-}
-
-.social-icons a:hover img{
-    filter: invert(18%) sepia(20%) saturate(7064%) hue-rotate(335deg) brightness(103%) contrast(103%);
 }
 
 
